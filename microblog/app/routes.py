@@ -22,3 +22,9 @@ def index():
 
     ]
     return render_template('index.html', title='Home', user=user, posts=posts)
+
+@app.route('/')
+@app.route('/secrets')
+def secrets():
+    password = '****'
+    return render_template('secrets.html', password=password)
