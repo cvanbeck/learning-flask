@@ -1,2 +1,2 @@
 # learning-flask
-git repo for learning flask
+git repo for learning flaskk
